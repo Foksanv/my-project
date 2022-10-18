@@ -10,3 +10,6 @@ class Player:
     def play(self):
         num = random.randint(1, 11)
         self.score += num
+        
+    def scream(self):
+        print(f'i am {self.name} from {self.team})
